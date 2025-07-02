@@ -1,4 +1,4 @@
-from collections import deque
+
 data = []
 with open('4/d4_input.txt', 'r') as file:
     for line in file:
@@ -11,7 +11,7 @@ m = len(data[0])
 # add x indices to stack
 # pop and check for m in diaganol range around
 # have while q include if its XMAS
-q = deque()
+
 
 directions = [
     (-1,  0), # up
@@ -20,7 +20,7 @@ directions = [
     ( 0,  1), # right
     (-1, -1), # up-left
     (-1,  1), # up-right
-    ( 1, -1), # down-left
+    ( 1, -1), # down-lefta
     ( 1,  1)  # down-right
 ]
 chain = ["X", "M", "A", "S"]
